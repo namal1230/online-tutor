@@ -1,7 +1,13 @@
 <template>
-  <HelloWorld />
+  <Dashboard/>
 </template>
 
-<script lang="ts" setup>
-  import HelloWorld from '@/components/HelloWorld.vue'
+<script>
+  import Dashboard from '@/pages/Dashboard.vue';
+
+  export default{
+    components: {
+        Dashboard,
+    }
+  }
 </script>
