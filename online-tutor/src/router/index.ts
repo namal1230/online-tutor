@@ -10,6 +10,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Home from '@/pages/user/Home.vue';
 import Dashboard from '@/pages/Dashboard.vue';
 import Recordings from '@/pages/user/Recordings.vue';
+import Courses from '@/pages/user/Courses.vue';
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -30,6 +31,11 @@ const router = createRouter({
         {
           path:"Home",
           component:Home,
+
+        },
+         {
+          path:"Courses",
+          component:Courses,
 
         },
       ]
