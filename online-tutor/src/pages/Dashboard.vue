@@ -25,9 +25,6 @@
       </template>
     </v-toolbar>
   </v-card>
-  <div>
-    hh
-  </div>
    <router-view></router-view>
 </template>
 
