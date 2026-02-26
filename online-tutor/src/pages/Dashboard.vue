@@ -1,5 +1,6 @@
 <template>
-    <v-card>
+   <div style="background-color: #368CEB;">
+     <v-card>
     <v-toolbar color="primary">
       <v-toolbar-title>PRO EDU</v-toolbar-title>
 
@@ -26,6 +27,7 @@
     </v-toolbar>
   </v-card>
    <router-view></router-view>
+   </div>
 </template>
 
 <script>
